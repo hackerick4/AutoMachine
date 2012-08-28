@@ -1,0 +1,31 @@
+﻿已經開始建置於 2012/8/29 上午 02:13:48。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\R\Desktop\test\test\test.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\test.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\r\desktop\test\test\main.cpp(42): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 請參閱 'kbhit' 的宣告
+     1>c:\users\r\desktop\test\test\main.cpp(55): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 請參閱 'getch' 的宣告
+     1>c:\users\r\desktop\test\test\main.cpp(87): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
+     1>c:\users\r\desktop\test\test\main.cpp(90): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 請參閱 'getch' 的宣告
+     1>c:\users\r\desktop\test\test\main.cpp(67): warning C4101: 'ms' : 未參考的區域變數
+     1>c:\users\r\desktop\test\test\main.cpp(68): warning C4101: 'msg' : 未參考的區域變數
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\R\Desktop\test\Debug\test.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\R\Desktop\test\Debug\test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\R\Desktop\test\Debug\test.lib" /MACHINE:X86 Debug\main.obj
+         LINK : 最後的累加連結找不到或未建置 C:\Users\R\Desktop\test\Debug\test.exe，正在執行完整連結
+         test.vcxproj -> C:\Users\R\Desktop\test\Debug\test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\R\Desktop\test\Debug\test.exe;#1" /manifest Debug\test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\test.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\test.lastbuildstate"。
+     1>專案 "C:\Users\R\Desktop\test\test\test.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.81
